@@ -1,0 +1,60 @@
+@import './_Variable.scss';
+
+
+
+.navbar-container{
+    border-right: 1px solid #28a745;
+    // background: $bg-dark;
+
+    position: fixed;
+    left: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100vh;
+    min-height: 100vh;
+    top: 0;
+    z-index: 1;
+    padding: 100px 0;
+}
+
+.navbar-logo {
+    padding-bottom: 50px;
+    img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+}
+.active {  
+    color: #FFD15C;   
+}
+.navbar-section {
+    
+    ul {
+        list-style: none;
+        li{
+            padding: 10px 0;
+            display: flex;
+            font-size: 20px;
+            span{
+                vertical-align: 0.12em;
+                color: $color-active;
+            }
+            a{
+                text-decoration: none;
+                color: $color-dark;
+                font-weight: 600;
+                padding-left: 20px;
+                
+                
+            }
+            .active {
+                color: $color-active;
+
+            }
+            
+        }
+    }
+}
+
+

@@ -7,15 +7,19 @@ import Home from './Components/Home';
 import Navbar from './Components/Navbar';
 import Services from './Components/Services';
 import Works from './Components/Works';
+import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
+
 
 function App() {
   return (
     <div className="App">
-      <div className='cv-container'> 
+      <div className='cv-container'>
 
-        <div className='narbav-container col-3'>
+        <div className='navbar-wrapper col-3'>
+
           <Navbar />
         </div>
+
         <div className='content-container col-9'>
           <Home />
           <About />
