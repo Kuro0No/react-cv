@@ -38,7 +38,7 @@ const Navbar = () => {
                 <div className='icon-navbar'>
                   {tab.icon}
                 </div>
-                <a className={activeTab === index ? 'active'  : ''} onClick={() => handleClickNavbar(index)} href={`#${tab.slug}`}> {tab.name}</a>
+                <a  className={activeTab === index ? 'active'  : ''} onClick={() => handleClickNavbar(index)} href={`#${tab.slug}`}> {tab.name}</a>
               </li>
             )
           })}
