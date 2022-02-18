@@ -1,1 +1,51 @@
 @import './_Variable.scss';
+
+#contact {
+    padding: $padding-content-container;
+    background: $bg-ligth;
+    .contact-wrap {
+        max-width: $max-width-content;
+        margin: auto;
+        .left {
+            text-align: left;
+        }
+        .right {
+            padding: 0 20px;
+        }
+    }
+    .input-group {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 30px;
+        input {
+            width: 230px;
+            
+        }
+    }
+    .input-group-2 {
+        padding-bottom: 30px;
+        input {
+            width: 100%;
+
+            
+        }
+    }
+    .input-group-3 {
+        padding-bottom: 30px;
+        textarea {
+            width: 100%;
+            
+        }
+    }
+    input, textarea {
+        border-radius: 20px;
+        outline: none;
+        padding: 10px;
+        box-shadow: $boxShadow;
+        border: none;
+        
+    }
+}
+.contact-content {
+    display: flex;
+}

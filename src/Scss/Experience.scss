@@ -1,1 +1,92 @@
-@import './_Variable.scss';
+@import "./_Variable.scss";
+
+.experience-content {
+    display: flex;
+}
+
+#experience {
+    padding: $padding-content-container;
+    background: $bg-ligth;
+    .exp-wrap {
+        max-width: $max-width-content;
+        margin: auto;
+    }
+    h2 {
+        margin-bottom: 60px;
+        color: $color-white;
+        font-weight: 700;
+    }
+    .icon-timeline {
+        position: absolute;
+        left: 5%;
+        font-size: 24px;
+    }
+    .timeline-item {
+        position: relative;
+    }
+    .study-content {
+        .std-wrap {
+            padding: 20px 0;
+            box-shadow: $boxShadow;
+            border-radius: 20px;
+            margin: 0 15px;
+        }
+    }
+    .work-content {
+        .work-wrap {
+            padding: 20px 0;
+            position: relative;
+            border-radius: 20px;
+            box-shadow: $boxShadow;
+            margin: 0 15px;
+        }
+    }
+    .timeline-text {
+        padding: 10px 10px 15px 60px;
+        text-align: left;
+        .span-time {
+            font-size: 17px;
+            color: $spantime-dark;
+        }
+        h3 {
+            padding-top: 10px;
+            color: $color-white;
+        }
+        p {
+            color: $color-p-white;
+            font-size: 16px;
+        }
+    }
+    .line-border {
+        position: absolute;
+        height: 145px;
+        width: 1px;
+        left: calc(8% - 1px);
+        background: black;
+        top: 22%;
+    }
+    .line-study-1 {
+        position: absolute;
+        height: 165px;
+        width: 1px;
+        left: calc(8% - 1px);
+        background: black;
+        top: 22%;
+    }
+    .line-study-2 {
+        position: absolute;
+        height: 127px;
+        width: 1px;
+        left: calc(8% - 1px);
+        background: black;
+        top: 22%;
+    }
+    .line-3 {
+        position: absolute;
+        height: 110px;
+        width: 1px;
+        left: calc(8% - 1px);
+        background: black;
+        top: 22%;
+    }
+}
