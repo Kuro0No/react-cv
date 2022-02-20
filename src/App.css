@@ -3,6 +3,10 @@
   background: var(--bg-dark);
 
 }
+html {
+  scroll-behavior:  smooth;
+  
+}
 .cv-container {
   display: flex;
 }

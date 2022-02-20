@@ -1,4 +1,4 @@
-@import './_Variable.scss';
+@import "./_Variable.scss";
 
 #contact {
     padding: $padding-content-container;
@@ -6,8 +6,19 @@
     .contact-wrap {
         max-width: $max-width-content;
         margin: auto;
+        h2 {
+            color: $color-white;
+            margin-bottom: 60px;
+        }
+        
         .left {
             text-align: left;
+            h3 {
+                color: $color-white;
+            }
+            p {
+                color: $color-p-white;
+            }
         }
         .right {
             padding: 0 20px;
@@ -16,34 +27,45 @@
     .input-group {
         display: flex;
         justify-content: space-between;
-        padding-bottom: 30px;
-        input {
-            width: 230px;
-            
+        padding-bottom: 20px;
+        p {
+            color: #e21212;
+            font-weight: 700;
+            text-align: left;
+            padding: 5px 0;
         }
     }
     .input-group-2 {
-        padding-bottom: 30px;
+        padding-bottom: 20px;
+        p {
+            text-align: left;
+            color: #e21212;
+            padding: 5px 0;
+            font-weight: 700;
+        }
         input {
             width: 100%;
-
-            
         }
     }
     .input-group-3 {
-        padding-bottom: 30px;
+        padding-bottom: 10px;
         textarea {
             width: 100%;
-            
+        }
+        p {
+            text-align: left;
+            color: #e21212;
+            padding: 5px 0;
+            font-weight: 700;
         }
     }
-    input, textarea {
+    input,
+    textarea {
         border-radius: 20px;
         outline: none;
-        padding: 10px;
+        padding: 10px 30px;
         box-shadow: $boxShadow;
         border: none;
-        
     }
 }
 .contact-content {
